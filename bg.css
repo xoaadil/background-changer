@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden; /* Prevents scrolling */
+}
+
+#outer{
+    height: 100vh;
+    width: 100vw;
+  
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+   
+        transition: background-color 0.5s ease-in-out;
+    
+    
+}
+#inner{
+    height: 80px;
+    width: 70%;
+    border: 1px solid white;
+    box-shadow: 2px 2px 2px 2px rgba(148, 8, 8, 0.276);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   margin-bottom: 20px;
+   border-radius: 999px;
+   background-color: whitesmoke;
+
+}
+.but{
+    height: 60px;
+    width: 100px;
+    border-radius: 999px;
+    padding: 5px 10px 5px 10px;
+    align-items: center;
+    color: black;
+    font-size: 25px;
+}
+#red{
+    background-color: red;
+}
+#yellow{
+    background-color: yellow;
+}
+#black{
+    color: white;
+    background-color: black;
+}
+#purple{
+    background-color: purple;
+}
+#green{
+    background-color: green;
+}
+#blue{
+    background-color: blue;
+}
+#reset{
+    background-color: orange;
+}
+.but:hover{
+    cursor: pointer;
+}
+.but:active {
+    transform: translateY(2px); 
+    box-shadow: 1px 1px 1px black; 
+}
